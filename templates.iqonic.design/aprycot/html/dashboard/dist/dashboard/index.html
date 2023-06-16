@@ -47,13 +47,7 @@
               </span>
               <input type="search" class="form-control" placeholder="Search...">
             </div>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon">
-                  <span class="navbar-toggler-bar bar1 mt-2"></span>
-                  <span class="navbar-toggler-bar bar2"></span>
-                  <span class="navbar-toggler-bar bar3"></span>
-                </span>
-            </button>
+
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ms-auto align-items-center navbar-list mb-2 mb-lg-0">
                 <li class="nav-item dropdown">
@@ -64,15 +58,6 @@
                       </svg>
                       <span class="bg-danger dots"></span>
                   </a>
-                  <div class="sub-drop dropdown-menu dropdown-menu-end p-0" aria-labelledby="notification-drop">
-                      <div class="card shadow-none m-0">
-                        <div class="card-header d-flex justify-content-between bg-primary mx-0 px-4">
-                            <div class="header-title">
-                              <h5 class="mb-0 text-white">All Notifications</h5>
-                            </div>
-                        </div>
-                      </div>
-                  </div>
                 </li>
               </ul>
             </div>
@@ -1162,24 +1147,50 @@
    </div>
 </div>
       </div>
-      <!-- Footer Section Start -->
-      <footer class="footer">
-          <div class="footer-body">
-              <ul class="left-panel list-inline mb-0 p-0">
-                  <li class="list-inline-item"><a href="extra/privacy-policy.html">Privacy Policy</a></li>
-                  <li class="list-inline-item"><a href="extra/terms-of-service.html">Terms of Use</a></li>
-              </ul>
-              <div class="right-panel">
-                  ©<script>document.write(new Date().getFullYear())</script> Aprycot, Made with
-                  <span class="text-gray">
-                      <svg width="15" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path fill-rule="evenodd" clip-rule="evenodd" d="M15.85 2.50065C16.481 2.50065 17.111 2.58965 17.71 2.79065C21.401 3.99065 22.731 8.04065 21.62 11.5806C20.99 13.3896 19.96 15.0406 18.611 16.3896C16.68 18.2596 14.561 19.9196 12.28 21.3496L12.03 21.5006L11.77 21.3396C9.48102 19.9196 7.35002 18.2596 5.40102 16.3796C4.06102 15.0306 3.03002 13.3896 2.39002 11.5806C1.26002 8.04065 2.59002 3.99065 6.32102 2.76965C6.61102 2.66965 6.91002 2.59965 7.21002 2.56065H7.33002C7.61102 2.51965 7.89002 2.50065 8.17002 2.50065H8.28002C8.91002 2.51965 9.52002 2.62965 10.111 2.83065H10.17C10.21 2.84965 10.24 2.87065 10.26 2.88965C10.481 2.96065 10.69 3.04065 10.89 3.15065L11.27 3.32065C11.3618 3.36962 11.4649 3.44445 11.554 3.50912C11.6104 3.55009 11.6612 3.58699 11.7 3.61065C11.7163 3.62028 11.7329 3.62996 11.7496 3.63972C11.8354 3.68977 11.9247 3.74191 12 3.79965C13.111 2.95065 14.46 2.49065 15.85 2.50065ZM18.51 9.70065C18.92 9.68965 19.27 9.36065 19.3 8.93965V8.82065C19.33 7.41965 18.481 6.15065 17.19 5.66065C16.78 5.51965 16.33 5.74065 16.18 6.16065C16.04 6.58065 16.26 7.04065 16.68 7.18965C17.321 7.42965 17.75 8.06065 17.75 8.75965V8.79065C17.731 9.01965 17.8 9.24065 17.94 9.41065C18.08 9.58065 18.29 9.67965 18.51 9.70065Z" fill="currentColor"></path>
-                      </svg>
-                  </span> by <a href="https://iqonic.design/">IQONIC Design</a>.
-              </div>
-          </div>
-      </footer>
-      <!-- Footer Section End -->    </main>
+      <!-- Bottom Navbar -->
+        <nav class="navbar navbar-light bg-light navbar-expand fixed-bottom d-md-none d-lg-none d-xl-none">
+            <ul class="navbar-nav nav-justified w-100">
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-house" fill="#292929" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+                    <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+                </svg>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-search" fill="#292929" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
+                    <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+                </svg>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-plus-square" fill="#292929" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                    <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+                </svg>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-heart" fill="#292929" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                </svg>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-person" fill="#292929" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M10 5a2 2 0 1 1-4 0 2 2 0 0 1 4 0zM8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm6 5c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
+                </svg>
+                </a>
+            </li>
+            </ul>
+        </nav>
+      </main>
     <!-- Wrapper End-->
     <!-- offcanvas start -->
 
