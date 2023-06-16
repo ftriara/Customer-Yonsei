@@ -103,6 +103,18 @@ hr:not([size]) {
     height: 1px
 }
 
+.bg-head {
+    position: absolute;
+    width: 360px;
+    height: 256px;
+    left: 0px;
+    top: 0px;
+
+    background: #DF3131;
+    box-shadow: inset 0px -26px 30px rgba(165, 165, 165, 0.15);
+    border-radius: 0px 0px 77px 77px;
+}
+
 h1,.h1,h2,.h2,h3,.h3,h4,.h4,h5,.h5,h6,.h6 {
     margin-top: 0;
     margin-bottom: 0;
