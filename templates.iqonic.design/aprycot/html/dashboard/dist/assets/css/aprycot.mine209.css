@@ -16676,7 +16676,7 @@ thead,tbody,tfoot,tr,td,th {
 }
 
 .nav .search-input {
-    width: auto
+    width: 190px;
 }
 
 .nav .search-input.input-group .input-group-text {
@@ -29602,6 +29602,37 @@ img.img-user {
 .user-img1 {
     position: fixed;
     top: 280px
+}
+
+/* Pop up */
+.modal {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    transition: all 0.4s;
+    visibility: hidden;
+    opacity: 0;
+}
+.content {
+    position: absolute;
+    background: #FFF6EC;
+    width: 350px;
+    padding: 1em 2em;
+    border-radius: 25px;
+}
+.modal:target {
+    margin-top: 70px;
+    visibility: visible;
+    opacity: 1;
+}
+.box-close {
+    position: absolute;
+    top: 0;
+    right: 30px;
+    color: #000000;
+    text-decoration: none;
+    font-size: 30px;
 }
 
 /*# sourceMappingURL=maps/aprycot.min.css.map */
