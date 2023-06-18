@@ -14588,7 +14588,7 @@ textarea.form-control-lg {
 }
 
 .dish-card:hover {
-    background-color: rgba(234,106,18,0.7);
+    background-color: rgba(223,49,55,0.8);
     color: #fff;
     cursor: pointer
 }
