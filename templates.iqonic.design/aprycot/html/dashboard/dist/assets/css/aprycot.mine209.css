@@ -41,7 +41,7 @@
     --bs-danger: #EA1212;
     --bs-light: #dee2e6;
     --bs-dark: #212529;
-    --bs-primary-rgb: 234,106,18;
+    --bs-primary-rgb: 223,49,49;
     --bs-secondary-rgb: 149,152,149;
     --bs-success-rgb: 59,183,126;
     --bs-info-rgb: 18,205,234;
@@ -14588,7 +14588,7 @@ textarea.form-control-lg {
 }
 
 .dish-card:hover {
-    background-color: rgba(234,106,18,0.7);
+    background-color: rgba(223,49,55,0.8);
     color: #fff;
     cursor: pointer
 }
