@@ -41,7 +41,7 @@
     --bs-danger: #EA1212;
     --bs-light: #dee2e6;
     --bs-dark: #212529;
-    --bs-primary-rgb: 234,106,18;
+    --bs-primary-rgb: 223,49,49;
     --bs-secondary-rgb: 149,152,149;
     --bs-success-rgb: 59,183,126;
     --bs-info-rgb: 18,205,234;
@@ -29611,6 +29611,7 @@ img.img-user {
     transition: all 0.4s;
     visibility: hidden;
     opacity: 0;
+    height: 150px;
 }
 .content {
     position: absolute;
