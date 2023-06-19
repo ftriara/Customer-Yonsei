@@ -79,7 +79,15 @@
 
 
             
-            <div class="container">
+            <div class="container"
+                data-iq-gsap="onStart"
+                data-iq-opacity="0"
+                data-iq-position-y="-40"
+                data-iq-duration=".6"
+                data-iq-delay="1.2"
+                data-iq-trigger="scroll"
+                data-iq-ease="none"
+            >
 
             <div class="content-inner mt-2 py-0">
 
@@ -117,16 +125,10 @@
                             <textarea class="form-control mb-3" rows="3" placeholder="Messege..."></textarea>
                           </div>
                         </div>
-                        <button class="btn btn-primary rounded-pill">Confirm Order</button>
+                        <button class="btn btn-primary rounded-pill" onclick="window.location.href='feedback.html'">Send</button>
                     </center>
-
-                      </div>
-
-                </div>  
-
-        
-        
-
+                    </div>
+                </div> 
             </div>
         
 

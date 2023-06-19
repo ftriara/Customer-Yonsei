@@ -24,10 +24,10 @@
     <main class="main-content">
       <div class="position-relative">
         <!--Nav Start-->
-        <nav class="nav navbar navbar-expand-lg navbar-light iq-navbar" style="background-color: #DF3131;">
+        <nav class="nav navbar navbar-expand-lg navbar-light iq-navbar" style="background-color: #DF3131; height: 70px;">
             <div class="container-fluid">
                 <div class="back">
-                    <a href="menu.html">
+                    <a href="index.html">
                         <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M2.41421 7L7.70711 1.70711C8.09763 1.31658 8.09763 0.683418 7.70711 0.292893C7.31658 -0.0976311 6.68342 -0.0976311 6.29289 0.292893L0.292893 6.29289C-0.0976311 6.68342 -0.0976311 7.31658 0.292893 7.70711L6.29289 13.7071C6.68342 14.0976 7.31658 14.0976 7.70711 13.7071C8.09763 13.3166 8.09763 12.6834 7.70711 12.2929L2.41421 7Z" fill="#FFF6EC"/>
                         </svg> 
@@ -39,37 +39,49 @@
 
                 <div class="box">
                     <a href="#popup-box">
-                        <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid meet">
-                        <g transform="translate(0.000000,100) scale(0.100000,-0.100000)" fill="#FFF6EC">
-                        <path d="M422 927 c-40 -42 -19 -117 32 -117 33 0 10 -24 -35 -35 -97 -25
-                                    -182 -88 -240 -178 -48 -74 -69 -146 -69 -236 l0 -71 45 0 c25 0 45 -4 45 -10
-                                    0 -6 -28 -10 -64 -10 -56 0 -67 -3 -80 -22 -23 -32 -20 -71 7 -96 23 -22 25
-                                    -22 478 -22 l456 0 21 23 c26 27 28 64 6 95 -13 19 -24 22 -80 22 -71 0 -88
-                                    17 -21 22 l42 3 -1 90 c0 76 -5 100 -27 149 -53 116 -147 199 -263 236 -58 18
-                                    -83 40 -45 40 25 0 51 36 51 70 0 15 -10 36 -23 48 -21 19 -35 22 -118 22 -87
-                                    0 -97 -2 -117 -23z m238 -212 c138 -48 236 -173 256 -325 l7 -50 -382 0 c-434
-                                    0 -391 -10 -370 92 48 224 277 357 489 283z m320 -510 c0 -13 -56 -15 -440
-                                    -15 -384 0 -440 2 -440 15 0 13 56 15 440 15 384 0 440 -2 440 -15z"/>
-                        </g>
-                        </svg>
+                       <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid meet">
+                          <g transform="translate(0.000000,100) scale(0.100000,-0.100000)" fill="#FFF6EC">
+                          <path d="M422 927 c-40 -42 -19 -117 32 -117 33 0 10 -24 -35 -35 -97 -25
+                                   -182 -88 -240 -178 -48 -74 -69 -146 -69 -236 l0 -71 45 0 c25 0 45 -4 45 -10
+                                   0 -6 -28 -10 -64 -10 -56 0 -67 -3 -80 -22 -23 -32 -20 -71 7 -96 23 -22 25
+                                   -22 478 -22 l456 0 21 23 c26 27 28 64 6 95 -13 19 -24 22 -80 22 -71 0 -88
+                                   17 -21 22 l42 3 -1 90 c0 76 -5 100 -27 149 -53 116 -147 199 -263 236 -58 18
+                                   -83 40 -45 40 25 0 51 36 51 70 0 15 -10 36 -23 48 -21 19 -35 22 -118 22 -87
+                                   0 -97 -2 -117 -23z m238 -212 c138 -48 236 -173 256 -325 l7 -50 -382 0 c-434
+                                   0 -391 -10 -370 92 48 224 277 357 489 283z m320 -510 c0 -13 -56 -15 -440
+                                   -15 -384 0 -440 2 -440 15 0 13 56 15 440 15 384 0 440 -2 440 -15z"/>
+                          </g>
+                       </svg>
                     </a>
                 </div>
                 <div id="popup-box" class="modal">
                     <div class="content">
                         <p style="color: #DF3131;">
-                            Your waitress on the way...
+                            Are you sure to call the waiter?
                         </p>
-                        <a href="#"
-                            class="box-close">
-                            ×
-                        </a>
+                        <center>
+                           <button type="button" class="btn btn-primary" onclick="window.location.href='#popup-box2'">Yes</button>
+                           <button type="button" class="btn btn-primary" onclick="window.location.href='#'">No</button>
+                          </center>
+                       </div>
                     </div>
-                </div>
+                    <div id="popup-box2" class="modal">
+                       <div class="content">
+                          <p style="color: #DF3131;">
+                             Your waiter on the way...
+                          </p>
+                          <a href="#"
+                                 class="box-close">
+                                 ×
+                             </a>
+                       </div>
+                    </div>
     
-                <svg href="search.html" width="25" height="25" viewBox="0 0 15 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M6.74999 13.3137C3.20616 13.3137 0.333313 10.3333 0.333313 6.65684C0.333313 2.98035 3.20616 -3.05176e-05 6.74999 -3.05176e-05C10.2938 -3.05176e-05 13.1667 2.98035 13.1667 6.65684C13.1667 8.39488 12.5246 9.97734 11.4732 11.1629L14.7315 14.5432C15.0895 14.9146 15.0895 15.5167 14.7315 15.8881C14.3736 16.2595 13.7932 16.2595 13.4352 15.8881L10.0445 12.3705C9.08146 12.9694 7.95448 13.3137 6.74999 13.3137ZM6.75003 11.4117C9.28134 11.4117 11.3334 9.2829 11.3334 6.65684C11.3334 4.03077 9.28134 1.90193 6.75003 1.90193C4.21872 1.90193 2.16669 4.03077 2.16669 6.65684C2.16669 9.2829 4.21872 11.4117 6.75003 11.4117Z" fill="white"/>
-                </svg>
-                    
+                    <a href="search.html">
+                        <svg width="25" height="25" viewBox="0 0 15 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M6.74999 13.3137C3.20616 13.3137 0.333313 10.3333 0.333313 6.65684C0.333313 2.98035 3.20616 -3.05176e-05 6.74999 -3.05176e-05C10.2938 -3.05176e-05 13.1667 2.98035 13.1667 6.65684C13.1667 8.39488 12.5246 9.97734 11.4732 11.1629L14.7315 14.5432C15.0895 14.9146 15.0895 15.5167 14.7315 15.8881C14.3736 16.2595 13.7932 16.2595 13.4352 15.8881L10.0445 12.3705C9.08146 12.9694 7.95448 13.3137 6.74999 13.3137ZM6.75003 11.4117C9.28134 11.4117 11.3334 9.2829 11.3334 6.65684C11.3334 4.03077 9.28134 1.90193 6.75003 1.90193C4.21872 1.90193 2.16669 4.03077 2.16669 6.65684C2.16669 9.2829 4.21872 11.4117 6.75003 11.4117Z" fill="white"/>
+                        </svg>
+                    </a> 
             </div>
         </nav>
         <!--Nav End-->
