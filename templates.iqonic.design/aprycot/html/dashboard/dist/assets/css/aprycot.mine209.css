@@ -18389,7 +18389,7 @@ form.comment-text input {
 
 .category-menu .heading-title::before {
     content: "";
-    border-bottom: 1px solid #DC3131;
+    /* border-bottom: 1px solid #DC3131; */
     width: 32px;
     position: absolute;
     left: 0;
@@ -18410,7 +18410,7 @@ form.comment-text input {
 }
 
 .category-menu:hover {
-    background-color: rgba(156, 16, 16, 0.7);
+    background-color: #DF3131;
     cursor: pointer
 }
 
