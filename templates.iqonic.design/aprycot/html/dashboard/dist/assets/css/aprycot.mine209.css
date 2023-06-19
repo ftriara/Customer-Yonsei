@@ -14384,7 +14384,7 @@ textarea.form-control-lg {
 }
 
 .card {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     background: rgba(255,255,255,0.6);
     -webkit-backdrop-filter: blur(42px);
     backdrop-filter: blur(42px)
