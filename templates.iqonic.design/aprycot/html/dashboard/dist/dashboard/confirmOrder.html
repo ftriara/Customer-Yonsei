@@ -27,7 +27,7 @@
         <nav class="nav navbar navbar-expand-lg navbar-light iq-navbar" style="background-color: #DF3131;">
             <div class="container-fluid">
                 <div class="back">
-                    <a href="menu.html">
+                    <a href="myCart.html">
                         <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M2.41421 7L7.70711 1.70711C8.09763 1.31658 8.09763 0.683418 7.70711 0.292893C7.31658 -0.0976311 6.68342 -0.0976311 6.29289 0.292893L0.292893 6.29289C-0.0976311 6.68342 -0.0976311 7.31658 0.292893 7.70711L6.29289 13.7071C6.68342 14.0976 7.31658 14.0976 7.70711 13.7071C8.09763 13.3166 8.09763 12.6834 7.70711 12.2929L2.41421 7Z" fill="#FFF6EC"/>
                         </svg> 
@@ -86,48 +86,58 @@
            <!--Nav End-->
         </div>
 
-        <div style="width: 350px; height: 120px; background-color:#fff; margin-left: 20px; margin-top: 50px; color: #000; border-radius: 1rem;">
-            <div class="p-3">
-                <p style="font-size: 10pt; font-weight: 600;">Payment Method</p>
-                <div style="width: 310px; height: 50px; background-color:#FFF6EC; color: #000; border-radius: 1rem;">
-                    <div class="d-flex justify-content-between">
-                      <div class="d-flex align-items-center p-2">
-                        <svg width="40" height="24" viewBox="0 0 40 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <circle cx="11.6667" cy="11.6667" r="11.6667" fill="#E33A24"/>
-                          <circle cx="28.3333" cy="11.6667" r="11.6667" fill="#F8CB2E" fill-opacity="0.8"/>
-                        </svg>
+        <div
+          data-iq-gsap="onStart"
+          data-iq-opacity="0"
+          data-iq-position-y="-40"
+          data-iq-duration=".6"
+          data-iq-delay="1.2"
+          data-iq-trigger="scroll"
+          data-iq-ease="none"
+        >
+          <div style="width: 350px; height: 120px; background-color:#fff; margin-left: 20px; margin-top: 50px; color: #000; border-radius: 1rem;">
+              <div class="p-3">
+                  <p style="font-size: 10pt; font-weight: 600;">Payment Method</p>
+                  <div style="width: 310px; height: 50px; background-color:#FFF6EC; color: #000; border-radius: 1rem;">
+                      <div class="d-flex justify-content-between">
+                        <div class="d-flex align-items-center p-2">
+                          <svg width="40" height="24" viewBox="0 0 40 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="11.6667" cy="11.6667" r="11.6667" fill="#E33A24"/>
+                            <circle cx="28.3333" cy="11.6667" r="11.6667" fill="#F8CB2E" fill-opacity="0.8"/>
+                          </svg>
+                        </div>
+                        <p style="margin-right: 20px; margin-top: 15px; font-size: 8pt;">2121 6352 8465 ****</p>
                       </div>
-                      <p style="margin-right: 20px; margin-top: 15px; font-size: 8pt;">2121 6352 8465 ****</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+                  </div>
+              </div>
 
-        <div style="width: 350px; height: 200px; background-color:#DF3131; margin-left: 20px; margin-top: 300px; color: #fff; border-radius: 1rem;">
-          <div class="p-3">
-              <div class="d-flex justify-content-between">
-                <div class="d-flex align-items-center">
-                  <p style="font-size: 10pt;">Sub-Total</p>
-                  <p style="font-size: 10pt; margin-left: 200px;">310K</p>
-                </div>
+            <div style="width: 350px; height: 200px; background-color:#DF3131; margin-left: 3px; margin-top: 300px; color: #fff; border-radius: 1rem;">
+              <div class="p-3">
+                  <div class="d-flex justify-content-between">
+                    <div class="d-flex align-items-center">
+                      <p style="font-size: 10pt;">Sub-Total</p>
+                      <p style="font-size: 10pt; margin-left: 200px;">310K</p>
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-between">
+                    <div class="d-flex align-items-center">
+                      <p style="font-size: 10pt;">Discount</p>
+                      <p style="font-size: 10pt; margin-left: 213px;">20K</p>
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-between">
+                    <div class="d-flex align-items-center">
+                      <p style="font-size: 12pt; font-weight: 600;">Total</p>
+                      <p style="font-size: 12pt; font-weight: 600; margin-left: 220px;">290K</p>
+                    </div>
+                  </div>
+                  <div class="text-center">
+                    <a type="button" href="payment.html" class="btn btn-light rounded-pill" style="color: #DF3131; font-weight: 900;">Place My Order</a>
+                </div>  
               </div>
-              <div class="d-flex justify-content-between">
-                <div class="d-flex align-items-center">
-                  <p style="font-size: 10pt;">Discount</p>
-                  <p style="font-size: 10pt; margin-left: 213px;">20K</p>
-                </div>
-              </div>
-              <div class="d-flex justify-content-between">
-                <div class="d-flex align-items-center">
-                  <p style="font-size: 12pt; font-weight: 600;">Total</p>
-                  <p style="font-size: 12pt; font-weight: 600; margin-left: 220px;">290K</p>
-                </div>
-              </div>
-              <div class="text-center">
-                <a type="button" href="payment.html" class="btn btn-light rounded-pill" style="color: #DF3131; font-weight: 900;">Place My Order</a>
-             </div>  
+            </div>
           </div>
-      </div>
+        </div>
  
       <!-- Bottom Navbar -->
         <nav class="navbar navbar-white bg-white navbar-expand fixed-bottom d-md-none d-lg-none d-xl-none">
