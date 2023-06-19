@@ -34,45 +34,55 @@
            <!--Nav End-->
         </div>
 
-        <div style="margin-top: 150px; margin-left: 130px;">
-            <svg width="140" height="140" viewBox="0 0 140 140" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="70" cy="70" r="70" fill="#DF3131" fill-opacity="0.3"/>
-                <circle cx="70" cy="70" r="60" fill="#DF3131" fill-opacity="0.4"/>
-                <circle cx="70" cy="70" r="50" fill="#DF3131" fill-opacity="0.4"/>
-                <circle cx="70" cy="70" r="40" fill="#DF3131"/>
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M80.7588 57.6458C81.4295 56.7253 82.6128 56.6133 83.4018 57.3958C84.1908 58.1782 84.2868 59.5587 83.6161 60.4792L67.6786 82.3542C66.9974 83.2892 65.7904 83.3877 65.0043 82.5725L56.5668 73.8225C55.7928 73.0198 55.7231 71.6372 56.4111 70.7342C57.099 69.8313 58.2842 69.7499 59.0581 70.5526L66.0629 77.8167L80.7588 57.6458Z" fill="#FFF6EC"/>
-            </svg>                
-        </div>
-        <center>
-            <div style="margin-top: 30px; color: #DF3131;">
-                <p style="font-size: 14pt; font-weight: 800; margin-bottom: 0;">Payment Successful</p>
-                <p style="font-size: 10pt; margin-bottom: 0;">Thank you for your order.</p>
-                <p style="font-size: 10pt;">Your order will be processed</p>      
-            </div>
-        </center>
-
-        <div style="width: 350px; height: 140px; background-color:#DF3131; margin-left: 20px; margin-top: 130px; color: #fff; border-radius: 1rem;">
-          <div class="p-3">
-              <div class="d-flex justify-content-between">
-                <div class="d-flex align-items-center">
-                  <p style="font-size: 10pt;">Sub-Total</p>
-                  <p style="font-size: 10pt; margin-left: 200px;">310K</p>
-                </div>
-              </div>
-              <div class="d-flex justify-content-between">
-                <div class="d-flex align-items-center">
-                  <p style="font-size: 10pt;">Discount</p>
-                  <p style="font-size: 10pt; margin-left: 213px;">20K</p>
-                </div>
-              </div>
-              <div class="d-flex justify-content-between">
-                <div class="d-flex align-items-center">
-                  <p style="font-size: 12pt; font-weight: 600;">Total</p>
-                  <p style="font-size: 12pt; font-weight: 600; margin-left: 220px;">290K</p>
-                </div>
-              </div>
+        <div
+            data-iq-gsap="onStart"
+            data-iq-opacity="0"
+            data-iq-position-y="-40"
+            data-iq-duration=".6"
+            data-iq-delay="1.2"
+            data-iq-trigger="scroll"
+            data-iq-ease="none"
+        >
+          <div style="margin-top: 150px; margin-left: 130px;">
+              <svg width="140" height="140" viewBox="0 0 140 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="70" cy="70" r="70" fill="#DF3131" fill-opacity="0.3"/>
+                  <circle cx="70" cy="70" r="60" fill="#DF3131" fill-opacity="0.4"/>
+                  <circle cx="70" cy="70" r="50" fill="#DF3131" fill-opacity="0.4"/>
+                  <circle cx="70" cy="70" r="40" fill="#DF3131"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M80.7588 57.6458C81.4295 56.7253 82.6128 56.6133 83.4018 57.3958C84.1908 58.1782 84.2868 59.5587 83.6161 60.4792L67.6786 82.3542C66.9974 83.2892 65.7904 83.3877 65.0043 82.5725L56.5668 73.8225C55.7928 73.0198 55.7231 71.6372 56.4111 70.7342C57.099 69.8313 58.2842 69.7499 59.0581 70.5526L66.0629 77.8167L80.7588 57.6458Z" fill="#FFF6EC"/>
+              </svg>                
           </div>
-      </div>
+          <center>
+              <div style="margin-top: 30px; color: #DF3131;">
+                  <p style="font-size: 14pt; font-weight: 800; margin-bottom: 0;">Payment Successful</p>
+                  <p style="font-size: 10pt; margin-bottom: 0;">Thank you for your order.</p>
+                  <p style="font-size: 10pt;">Your order will be processed</p>      
+              </div>
+          </center>
+
+          <div style="width: 350px; height: 140px; background-color:#DF3131; margin-left: 20px; margin-top: 130px; color: #fff; border-radius: 1rem;">
+            <div class="p-3">
+                <div class="d-flex justify-content-between">
+                  <div class="d-flex align-items-center">
+                    <p style="font-size: 10pt;">Sub-Total</p>
+                    <p style="font-size: 10pt; margin-left: 200px;">310K</p>
+                  </div>
+                </div>
+                <div class="d-flex justify-content-between">
+                  <div class="d-flex align-items-center">
+                    <p style="font-size: 10pt;">Discount</p>
+                    <p style="font-size: 10pt; margin-left: 213px;">20K</p>
+                  </div>
+                </div>
+                <div class="d-flex justify-content-between">
+                  <div class="d-flex align-items-center">
+                    <p style="font-size: 12pt; font-weight: 600;">Total</p>
+                    <p style="font-size: 12pt; font-weight: 600; margin-left: 220px;">290K</p>
+                  </div>
+                </div>
+            </div>
+          </div> 
+        </div>
  
       <!-- Bottom Navbar -->
         <nav class="navbar navbar-white bg-white navbar-expand fixed-bottom d-md-none d-lg-none d-xl-none">
